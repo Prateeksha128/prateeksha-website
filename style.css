@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+
+    
+}
+
+
+h1
+{
+
+    color:rgb(173, 122, 80);
+    text-transform: uppercase;
+    font-style: inherit;
+    font-size: 80px;
+    text-align: end;
+    margin-top: 150px;
+
+    
+}
+h2
+{
+    color:rgb(8, 1, 1);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.404)),url(port.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+p
+{
+    font-style:italic;
+color: rgb(52, 161, 175);
+font-size: 40px;
+text-align:right;
+
+}
+image
+{
+margin-top: unset;
+}
